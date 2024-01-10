@@ -6,7 +6,7 @@ let loc = document.getElementById("location");
 let humidity = document.getElementById("humidity");
 let windSpeed = document.getElementById("wind");
 
-const key = "";
+const key = ""; //add Your api key hear form https://openweathermap.org/
 let q;
 
 btn.addEventListener("click", async () => {
